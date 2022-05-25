@@ -1,8 +1,0 @@
-extends layout
-
-block content
-  h1= title
-  script.
-    function change() {document.getElementById("test").innerText = "Hello World";}
-  p(id="test") Welcome to #{title}
-  button(type='button', onclick='change()') Click Me!
