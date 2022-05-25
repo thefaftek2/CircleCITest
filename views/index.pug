@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  script.
+  p(id="test") Welcome to #{title}
+  form
+    label Input value here:
+    input(type="text" id="input" name="input")
+    input(type="submit" value="submit")
